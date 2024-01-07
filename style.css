@@ -28,13 +28,10 @@
     padding-top: 20px;
    }
 
+
    div ol.T1{
     font-weight: bold;
-<<<<<<< HEAD
     padding-top: 40px;
-=======
-    padding-top: 10px;
->>>>>>> f2a008da7fbc971a1104dea5fc5f1de31582200e
     font-size: 25px;
    }
    /*div ol.T1 a{
@@ -43,22 +40,14 @@
 
    div ol.T1 li{
     padding-top: 2px;
-<<<<<<< HEAD
     list-style: circle;
-=======
-    /*list-style: circle;*/
->>>>>>> f2a008da7fbc971a1104dea5fc5f1de31582200e
     font-size: 25px;
  
    }
 
    div ol.T2{
     font-weight: bold;
-<<<<<<< HEAD
     padding-top: 40px;
-=======
-    padding-top: 10px;
->>>>>>> f2a008da7fbc971a1104dea5fc5f1de31582200e
     font-size: 25px;
    }
    /*div ol.T2 a{
