@@ -1,0 +1,102 @@
+   @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Poppins:wght@300;400&display=swap');
+
+
+
+   :root {
+       --primary-color: #5885AF;
+       --secondary-color: #C3E0E5;
+       --text-color: antiquewhite;
+       --text-color2: black;
+   }
+
+   div{
+    padding: 20px;
+   }
+
+   div h1{
+    font-size: 30px;
+    font: bold;
+   }
+
+   div p{
+    font-size: 15px;
+    font-weight: bold;
+   }
+
+   div h2{
+    font-size: medium;
+    padding-top: 20px;
+   }
+
+
+   div ol.T1{
+    font-weight: bold;
+    padding-top: 10px;
+   }
+   /*div ol.T1 a{
+    font-size: medium;
+   */
+
+   div ol.T1 li{
+    padding-top: 2px;
+    list-style: circle;
+    font-size: small;
+ 
+   }
+
+   div ol.T2{
+    font-weight: bold;
+    padding-top: 10px;
+   }
+   /*div ol.T2 a{
+    font-size: medium;
+   }*/
+
+   div ol.T2 li{
+    padding-top: 2px;
+    list-style: circle;
+    font-size: small;
+ 
+   }
+
+
+   div p{
+    padding-top: 10px;
+    color: var(--text-color2);
+    
+   }
+
+   * {
+       margin: 0;
+       padding: 0;
+   }
+
+   body {
+       background-color: var(--secondary-color);
+
+   }
+
+   ul li {
+       list-style: none;
+       display: inline;
+       padding: 25px;
+       font-weight: bolder;
+       font-size: 20px;
+       padding: 40px;
+   }
+
+   nav {
+       background-color: var(--primary-color);
+       padding: 12px 0;
+       color: var(--text-color)
+   }
+
+   ul li a {
+       color: var(--text-color);
+       text-decoration: none;
+
+   }
+
+   div.last{
+    text-align: center;
+   }
