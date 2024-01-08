@@ -23,34 +23,19 @@ div {
     padding: 20px;
 }
 
-<<<<<<< HEAD
 div h1 {
     font-size: 30px;
-=======
-   div h1{
-    font-size: large;
->>>>>>> abf3e7f8ce0dac1b976e5b5fd9851951e23a5dce
     font: bold;
     color: var(--text-color2);
 }
 
-<<<<<<< HEAD
 div p {
     font-size: 25px;
-=======
-   div p{
-    font-size: medium;
->>>>>>> abf3e7f8ce0dac1b976e5b5fd9851951e23a5dce
     font-weight: bold;
 }
 
-<<<<<<< HEAD
 div h2 {
     font-size: medium;
-=======
-   div h2{
-    font-size: large;
->>>>>>> abf3e7f8ce0dac1b976e5b5fd9851951e23a5dce
     padding-top: 20px;
 }
 
@@ -58,62 +43,38 @@ div h2 {
 div ol.T1 {
     font-weight: bold;
     padding-top: 40px;
-<<<<<<< HEAD
     font-size: 25px;
     color: var(--text-color2);
 }
 
 /*div ol.T1 a{
-=======
-    font-size: medium;
-   }
-   /*div ol.T1 a{
->>>>>>> abf3e7f8ce0dac1b976e5b5fd9851951e23a5dce
     font-size: medium;
    */
 
 div ol.T1 li {
     padding-top: 2px;
     list-style: circle;
-<<<<<<< HEAD
     font-size: 25px;
-=======
-    font-size: medium;
- 
-   }
->>>>>>> abf3e7f8ce0dac1b976e5b5fd9851951e23a5dce
 
 }
 
 div ol.T2 {
     font-weight: bold;
     padding-top: 40px;
-<<<<<<< HEAD
     font-size: 25px;
     color: var(--text-color2);
 }
 
 /*div ol.T2 a{
-=======
-    font-size: medum;
-   }
-   /*div ol.T2 a{
->>>>>>> abf3e7f8ce0dac1b976e5b5fd9851951e23a5dce
     font-size: medium;
    }*/
 
 div ol.T2 li {
     padding-top: 2px;
     list-style: circle;
-<<<<<<< HEAD
     font-size: 25px;
 
 }
-=======
-    font-size: medium;
- 
-   }
->>>>>>> abf3e7f8ce0dac1b976e5b5fd9851951e23a5dce
 
 
 div p {
@@ -130,18 +91,7 @@ div p {
 body {
     background-color: var(--secondary-color);
 
-<<<<<<< HEAD
 }
-=======
-   ul li {
-       list-style: none;
-       display: inline;
-       padding: 25px;
-       font-weight: bolder;
-       font-size: medium;
-       padding: 40px;
-   }
->>>>>>> abf3e7f8ce0dac1b976e5b5fd9851951e23a5dce
 
 ul li {
     list-style: none;
@@ -189,8 +139,4 @@ ul li a {
 
 div.last {
     text-align: center;
-<<<<<<< HEAD
 }
-=======
-   }
->>>>>>> abf3e7f8ce0dac1b976e5b5fd9851951e23a5dce
