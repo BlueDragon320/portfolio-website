@@ -1,104 +1,142 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Poppins:wght@300;400&display=swap');
 
 
+:root {
+    /* --primary-color: #C3E0E5; */
+    --secondary-color: #C3E0E5;
+    --text-color: antiquewhite;
+    --text-color2: rgb(210, 222, 230);
+}
 
-   :root {
-       --primary-color: #5885AF;
-       --secondary-color: #C3E0E5;
-       --text-color: antiquewhite;
-       --text-color2: black;
-   }
+body {
+    background-image: url(https://images.unsplash.com/photo-1502582877126-512f3c5b0a64?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    font-size: 50px;
+    font-weight: bolder;
+    background-position: center;
+    background-clip: text;
+    -webkit-background-clip: text;
+    /* color: transparent; */
+}
 
-   div{
+div {
     padding: 20px;
-   }
+}
 
-   div h1{
+div h1 {
     font-size: 30px;
     font: bold;
-   }
+    color: var(--text-color2);
+}
 
-   div p{
+div p {
     font-size: 25px;
     font-weight: bold;
-   }
+}
 
-   div h2{
+div h2 {
     font-size: medium;
     padding-top: 20px;
-   }
+}
 
 
-   div ol.T1{
+div ol.T1 {
     font-weight: bold;
     padding-top: 40px;
     font-size: 25px;
-   }
-   /*div ol.T1 a{
+    color: var(--text-color2);
+}
+
+/*div ol.T1 a{
     font-size: medium;
    */
 
-   div ol.T1 li{
+div ol.T1 li {
     padding-top: 2px;
     list-style: circle;
     font-size: 25px;
- 
-   }
 
-   div ol.T2{
+}
+
+div ol.T2 {
     font-weight: bold;
     padding-top: 40px;
     font-size: 25px;
-   }
-   /*div ol.T2 a{
+    color: var(--text-color2);
+}
+
+/*div ol.T2 a{
     font-size: medium;
    }*/
 
-   div ol.T2 li{
+div ol.T2 li {
     padding-top: 2px;
     list-style: circle;
     font-size: 25px;
- 
-   }
+
+}
 
 
-   div p{
+div p {
     padding-top: 10px;
     color: var(--text-color2);
-    
-   }
 
-   * {
-       margin: 0;
-       padding: 0;
-   }
+}
 
-   body {
-       background-color: var(--secondary-color);
+* {
+    margin: 0;
+    padding: 0;
+}
 
-   }
+body {
+    background-color: var(--secondary-color);
 
-   ul li {
-       list-style: none;
-       display: inline;
-       padding: 25px;
-       font-weight: bolder;
-       font-size: 25px;
-       padding: 40px;
-   }
+}
 
-   nav {
-       background-color: var(--primary-color);
-       padding: 12px 0;
-       color: var(--text-color)
-   }
+ul li {
+    list-style: none;
+    display: inline;
+    padding: 25px;
+    font-weight: bolder;
+    font-size: 25px;
+    padding: 40px;
+    background-size: cover;
+    font-size: 50px;
+    font-weight: bolder;
+    background-position: center;
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-decoration-line: underline;
+    text-decoration-thickness: 4px;
+    filter: blur(2px);
+    -webkit-filter: blur(0.4px);  
+}
 
-   ul li a {
-       color: var(--text-color);
-       text-decoration: none;
 
-   }
+nav {
+    background-color: var(--primary-color);
+    padding: 12px 0;
+    color: var(--text-color)
+}
 
-   div.last{
+ul li a {
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.name {
+    /* background-color: black; */
+    /* font-size: larger; */
+    background-image: url(https://images.pexels.com/photos/691901/pexels-photo-691901.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+    font-size: 50px;
+    font-weight: bolder;
+    background-position: center;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+div.last {
     text-align: center;
-   }
+}
