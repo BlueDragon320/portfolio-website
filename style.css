@@ -101,7 +101,7 @@ body {
 ul li {
     list-style: none;
     display: inline;
-    /* padding: 25px; */
+    /* padding: 60px;  */
     font-weight: bolder;
     font-size: 25px;
     margin-left: 40px;
@@ -120,10 +120,9 @@ ul li {
 
 nav {
     /* background-color: var(--primary-color); */
-    /* padding: 10px ;
-    margin-bottom: 30px; */
-    color: var(--text-color)
-
+    /* padding: 10px; */
+    /* margin-bottom: 30px;  */
+    color: var(--text-color);
 }
 
 ul li a {
@@ -131,9 +130,9 @@ ul li a {
     text-decoration: underline;
     float: right;
     margin-left: 20px;
+    padding: 25px;
 }
-
-.name {
+ul li:nth-child(1) {
     /* background-color: black; */
     /* font-size: larger; */
     background-image: url(https://images.pexels.com/photos/691901/pexels-photo-691901.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
@@ -144,6 +143,9 @@ ul li a {
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
+    padding: 25px;                               /* Something is not working here*/
+
+
 }
 
 div.last {
@@ -159,4 +161,12 @@ div.last {
     left: 0;
     z-index: -1;
     overflow: auto;
-}  
+}  */
+
+.bg-head{
+    background: url(https://img.freepik.com/free-photo/recession-banking-statistics-bad-street_1150-1720.jpg?w=996&t=st=1704896962~exp=1704897562~hmac=2b1d321ca7f6aa432e100e88131a808c24ae2253d980604cfc94c3478f1befd5);
+    background-size: 800px;
+    background-position: center;
+    height: 120px;
+}
+
