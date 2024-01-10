@@ -12,27 +12,26 @@
 }
 
     body {
-    background-image: url(https://images.unsplash.com/photo-1502582877126-512f3c5b0a64?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);  
-
-    
+    background-image: url(https://images.unsplash.com/photo-1502582877126-512f3c5b0a64?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    backdrop-filter: blur(10px);  
     background-size: cover;
     font-size: 50px;
     font-weight: bolder;
     background-position: center;
     background-clip: text;
     -webkit-background-clip: text;
-     color: transparent; 
+    color: transparent; 
 } 
 
-div {
-    padding: 20px;
-
+div { 
+    display: inline;
 }
 
 div h1 {
     font-size: var(--font-size2);
     font: bold;
     color: var(--text-color2);
+    margin-top: 50px;
 }
 
 div p {
@@ -102,10 +101,10 @@ body {
 ul li {
     list-style: none;
     display: inline;
-    padding: 25px;
+    /* padding: 25px; */
     font-weight: bolder;
     font-size: 25px;
-    padding: 40px;
+    margin-left: 40px;
     background-size: cover;
     font-size: 50px;
     font-weight: bolder;
@@ -120,14 +119,18 @@ ul li {
 
 
 nav {
-    background-color: var(--primary-color);
-    padding: 12px 0;
+    /* background-color: var(--primary-color); */
+    /* padding: 10px ;
+    margin-bottom: 30px; */
     color: var(--text-color)
+
 }
 
 ul li a {
     color: var(--text-color);
-    text-decoration: none;
+    text-decoration: underline;
+    float: right;
+    margin-left: 20px;
 }
 
 .name {
@@ -157,3 +160,21 @@ div.last {
     z-index: -1;
     overflow: auto;
 }  
+
+hr {
+    width : "100%";
+     size: "2";
+}
+
+.bg-head{
+    background-image: url(https://img.freepik.com/free-photo/cardano-blockchain-platform-collage_23-2150827491.jpg?w=996&t=st=1704893527~exp=1704894127~hmac=10bb82d4cb405667aa546183088402916a148a8e764e9a54801a979db7ec510e);
+    /* height: 50px; */
+    /* background-color: aqua; */
+    background-position: right;
+    /* background-size: -100px; */
+    /* padding: 0px; */
+    margin-top: 0px;
+    z-index: -1;
+    padding: 40px;
+   
+}
